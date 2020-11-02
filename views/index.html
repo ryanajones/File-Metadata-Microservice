@@ -1,13 +1,45 @@
 <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>File Metadata Microservice</title>
+  <link rel="stylesheet" href="/public/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="top-bar"></div>
+    <div class="title">
+      <h1>
+        File Metadata Microservice
+      </h1>
+    </div>
+  </header>
+  <main>
+    <div class="content">
+      <p>Upload a file to receive a response of the file's name, size, and type.</p>
+      <form enctype="multipart/form-data" method="POST" action="/api/fileanalyse">
+        <input id="inputfield" type="file" name="upfile">
+        <input id="button" type="submit" value="Upload">
+      </form>
+    </div>
+  </main>
+</body>
+
+</html>
+
+
+
+
+<!-- <!DOCTYPE html>
+
 
 <html>
 
 <head>
-  <title>File Metadata</title>
-  <link rel="shortcut icon"
-    href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico"
-    type="image/x-icon" />
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+  <title>File Metadata Microservice</title>
   <link href="/public/style.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -43,4 +75,4 @@
 </body>
 
 
-</html>
+</html> -->
