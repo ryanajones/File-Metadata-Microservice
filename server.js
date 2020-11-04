@@ -24,7 +24,6 @@ app.post('/api/fileanalyse', upload.single('upfile'), function (req, res) {
     size: `${req.file.size} bytes`,
     type: req.file.mimetype,
   });
-  console.log(req.file);
 });
 
 app.listen(process.env.PORT || 5000, function () {
