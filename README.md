@@ -1,6 +1,6 @@
 # File Metadata Microservice
 
-> This application can be used to receive information about a certain file. Uploading a file will return a JSON response of the file's name, size, and type. 
+This application can be used to receive information about a certain file. Uploading a file will return a JSON response of the file's name, size, and type.
 
 ## Technologies Used
 
